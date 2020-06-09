@@ -1,0 +1,217 @@
+html {
+  background-color: #101010!important;
+  color:white!important;
+  font-family: 'Fredoka One', cursive!important;
+}
+
+body {
+  background-color: #101010!important;
+  color:white!important;
+  font-family: 'Fredoka One', cursive!important;
+}
+
+a:hover {
+  color : white!important;
+  text-decoration: none!important;
+}
+
+.displayOff {
+  display: none;
+}
+
+.envoyez {
+  display: none;
+}
+
+#Question1 {
+  display: block;
+}
+
+span{
+  font-size: 2.5vw;
+}
+
+.my-font{
+  font-size: 3.5vw!important;
+}
+
+.my-little-font{
+  font-size: 2vw!important;
+}
+
+.my-border {
+  border: 5px solid #4183D7;
+}
+
+.my-btn {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out, transform .5s;
+  font-family: 'Fredoka One', cursive!important;
+}
+
+.my-btn:hover{
+  transform: scale(1.15);
+}
+
+.question-container {
+  margin: 0 auto;
+}
+
+.button-wrap {
+  position: relative;
+  text-align: center;
+  margin-top: -2.5em;
+}
+
+.button-label {
+  display: inline-block;
+  padding: 1.5em 1.5em 1.5em 1.5em;
+  margin: 1.5em 0.5em 1.5em 0.5em;
+  cursor: pointer;
+  color: #292929;
+  border-radius: 0.25em;
+  background: #efefef;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+          font-family: 'Fredoka One', cursive!important;
+}
+
+.button-label h1 {
+  font-size: 1em;
+  font-family: 'Fredoka One', cursive!important;
+}
+
+.button-label:hover {
+  background: #d6d6d6;
+  color: #101010;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.32);
+  font-family: 'Fredoka One', cursive!important;
+  
+}
+
+.button-label:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0px -1px 0 rgba(0, 0, 0, 0.22);
+}
+
+.choice:checked + .button-label {
+  background: #4183D7;
+  color: #efefef;
+}
+
+.choice:checked + .button-label:hover {
+  background: #2c75d2;
+  color: #e2e2e2;
+}
+
+.hidden {
+  display: none;
+}
+
+.flux {
+  font-family: 'Fredoka One', cursive!important;
+  color: #426dfb;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356ff;
+}
+
+.flux {
+    animation: flux 5s linear infinite;
+    -moz-animation: flux 5s linear infinite;
+    -webkit-animation: flux 5s linear infinite;
+    -o-animation: flux 5s linear infinite;
+}
+  
+@keyframes flux {
+    0% {
+        text-shadow: 0 0 0.5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180,
+        0 0 5vw #082180, 0 0 0.2vw #082180, 0.5vw 0.5vw 0.1vw #0a3940;
+        color: #146c80;
+    }
+    25% {
+        text-shadow: 0 0 1vw #1041ff, 0 0 3vw #1041ff, 0 0 10vw #1041ff,
+        0 0 10vw #1041ff, 0 0 0.4vw #8bfdfe, 0.5vw 0.5vw 0.1vw #147280;
+        color: #28d7fe;
+    }
+    50% {
+        text-shadow: 0 0 0.5vw #800e0b, 0 0 1.5vw #800e0b, 0 0 5vw #800e0b,
+        0 0 5vw #800e0b, 0 0 0.2vw #800e0b, 0.5vw 0.5vw 0.1vw #40340a;
+        color: #806914;
+    }
+    75% {
+        text-shadow: 0 0 1vw #fa1c16, 0 0 3vw #fa1c16, 0 0 10vw #fa1c16,
+        0 0 10vw #fa1c16, 0 0 0.4vw #fed128, 0.5vw 0.5vw 0.1vw #806914;
+        color: #fed128;
+    }
+    100% {
+        text-shadow: 0 0 0.5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180,
+        0 0 5vw #082180, 0 0 0.2vw #082180, 0.5vw 0.5vw 0.1vw #0a3940;
+        color: #146c80;
+    }
+
+}
+
+.animation-top {
+  animation: animation-top 5s;
+  -moz-animation: animation-top 5s; /* Firefox */
+  -webkit-animation: animation-top 5s; /* Safari et Chrome */
+  -o-animation: animation-top 5s; /* Opera */
+}
+
+@keyframes animation-top {
+  from {
+      bottom:500px;
+  }
+  to {
+      bottom:0px;
+  }
+}
+@media screen and (max-width: 1199px) {
+
+  .my-font{
+    font-size: 5vw!important;
+  }
+
+  .my-little-font{
+    font-size: 3.5vw!important;
+  }
+
+  .my-btn:hover{
+    transform: scale(1);
+  }
+
+}
+@media screen and (max-width: 500px) {
+  .my-font{
+    font-size: 5.5vw!important;
+  }
+
+  .my-little-font{
+    font-size: 5vw!important;
+  }
+
+  .my-btn:hover{
+    transform: scale(1);
+  }
+}
